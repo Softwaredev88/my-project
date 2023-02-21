@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+h1{
+    text-shadow: 5px 8px black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 65px;
+    color: red;
+    font-family: fantasy;
+    padding-bottom: 18px;
+    user-select: none;
+}
+
+#container{
+    display: grid;
+}
+
+input{
+    height: 180px;
+    width: 95%;
+    font-size: 38px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin: 15px 10px;
+    text-transform: uppercase;    
+}
+
+#letter{
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    border-width: 0 0 4.5px 0;
+    box-shadow: 3px 3px 6px 3px black;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    justify-self: center;
+}
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    justify-self: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .75s;
+}
+
+#btn2:hover{
+    background-color: red;
+    color: white;
+}
+
+#op{
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    justify-content: space-between;
+    background-color: #D31336;
+    color: #252131;
+    box-shadow: 5px 5px 10px 5px #3A5A81;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+#output{
+    font-size: 30px;
+    padding: 12px 15px;
+    margin: 2px 12px;
+}
+
+#output2{
+    font-size: 30px;
+    padding: 12px 15px;
+    margin: 2px 12px;
+}
+
+@media only screen and (max-width: 1250px) {
+    input{
+        font-size: 28px;
+        width: 85%;
+        height: 250px;
+        justify-self: center;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+}
